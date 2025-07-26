@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #004d7a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.course-list {
+  padding: 2rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.course-card {
+  background: white;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.course-card h3 {
+  margin-top: 1rem;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #004d7a;
+  text-decoration: underline;
+}
+
+.course-detail {
+  padding: 2rem;
+}
+
+.video-section {
+  margin-bottom: 2rem;
+}
+
+.lessons {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.lesson {
+  margin-bottom: 1rem;
+}
+
+progress {
+  width: 100%;
+  height: 16px;
+}
